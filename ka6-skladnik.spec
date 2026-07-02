@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.04.2
+%define		kdeappsver	26.04.3
 %define		qtver		5.15.2
 %define		kaname		skladnik
 Summary:	A Japanese warehouse keeper sokoban game by KDE
 Name:		ka6-%{kaname}
-Version:	26.04.2
+Version:	26.04.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	45a245fddde950d77e431918a5ec98c2
+# Source0-md5:	39d49b3c40081240bd0605debb9a3465
 URL:		http://apps.kde.org/skladnik
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
